@@ -7,7 +7,7 @@
     android:background="@color/purple">
 
     <TextView
-        android:id="@+id/aventura2"
+        android:id="@+id/tv_recup"
         android:layout_width="234dp"
         android:layout_height="31dp"
         android:text="@string/recupera_contrasena"
@@ -55,7 +55,7 @@
         app:layout_constraintVertical_bias="0.422" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/Img_log2"
         android:layout_width="84dp"
         android:layout_height="96dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -91,7 +91,7 @@
         app:srcCompat="@drawable/key" />
 
     <TextView
-        android:id="@+id/aventura"
+        android:id="@+id/tvtexto3"
         android:layout_width="301dp"
         android:layout_height="73dp"
         android:text="@string/aventura"
@@ -106,7 +106,7 @@
         app:layout_constraintVertical_bias="0.222" />
 
     <TextView
-        android:id="@+id/tvnombre_app"
+        android:id="@+id/tvnombre_app2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/abeezee"
@@ -123,7 +123,7 @@
         app:layout_constraintVertical_bias="0.049" />
 
     <TextView
-        android:id="@+id/crearcuenta"
+        android:id="@+id/tv_nocuenta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/no_cuenta"
@@ -131,13 +131,13 @@
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.293"
+        app:layout_constraintHorizontal_bias="0.292"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.921" />
 
     <TextView
-        android:id="@+id/registro"
+        android:id="@+id/tv_registro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/registro"
@@ -147,13 +147,13 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.166"
-        app:layout_constraintStart_toEndOf="@+id/crearcuenta"
+        app:layout_constraintStart_toEndOf="@+id/tv_nocuenta"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.92" />
 
     <com.google.android.material.button.MaterialButton
 
-        android:id="@+id/button"
+        android:id="@+id/btn_regis"
         android:backgroundTint="@color/blue"
         android:layout_width="260dp"
         android:layout_height="57dp"
@@ -166,7 +166,7 @@
         app:strokeColor="@color/violet"/>
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/button4"
+        android:id="@+id/btn_google"
         android:layout_width="267dp"
         android:layout_height="51dp"
         android:backgroundTint="@color/white"

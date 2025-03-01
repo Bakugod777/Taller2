@@ -11,7 +11,7 @@
     >
 
     <TextView
-        android:id="@+id/aventura4"
+        android:id="@+id/tvnombre_app2"
         android:layout_width="344dp"
         android:layout_height="89dp"
         android:fontFamily="sans-serif-medium"
@@ -28,7 +28,7 @@
         app:layout_constraintVertical_bias="0.476" />
 
     <TextView
-        android:id="@+id/aventura3"
+        android:id="@+id/tvtexto4"
         android:layout_width="344dp"
         android:layout_height="89dp"
         android:fontFamily="sans-serif-medium"
@@ -42,10 +42,10 @@
         app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.637" />
+        app:layout_constraintVertical_bias="0.635" />
 
     <TextView
-        android:id="@+id/aventura5"
+        android:id="@+id/tv_registrarse"
         android:layout_width="241dp"
         android:layout_height="33dp"
         android:layout_marginTop="94dp"
@@ -76,13 +76,13 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/aventura4"
+        app:layout_constraintTop_toTopOf="@+id/tvnombre_app2"
         app:layout_constraintVertical_bias="1.0"
         app:strokeColor="@color/violet"
         app:strokeWidth="3dp" />
 
     <ImageView
-        android:id="@+id/ivlogo3"
+        android:id="@+id/Img_log3"
         android:layout_width="228dp"
         android:layout_height="328dp"
         app:layout_constraintBottom_toBottomOf="parent"

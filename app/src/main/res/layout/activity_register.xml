@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="@color/purple">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/purple"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="0dp">
+
+        <com.google.android.material.button.MaterialButton
+
+            android:id="@+id/btn_regmen"
+            android:layout_width="220dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="68dp"
+            android:backgroundTint="@color/blue"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/btn_menu"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+            app:strokeColor="@color/violet"
+            app:strokeWidth="3dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_tmregis"
+            android:layout_width="284dp"
+            android:layout_height="63dp"
+            android:layout_marginBottom="160dp"
+            android:backgroundTint="@color/blue"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/btn_terminos"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+            app:strokeColor="@color/violet"
+            app:strokeWidth="3dp" />
+
+        <EditText
+            android:id="@+id/et_email"
+            style="@style/EditTextRounded"
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:inputType="text"
+            android:text="Email"
+            android:textColor="@color/grey"
+            android:textSize="16sp"
+            tools:layout_editor_absoluteX="15dp"
+            tools:layout_editor_absoluteY="283dp" />
+
+        <EditText
+            android:id="@+id/et_password"
+            style="@style/EditTextRounded"
+            android:layout_width="380dp"
+            android:layout_height="39dp"
+            android:ems="10"
+            android:inputType="text"
+            android:text="Password"
+            android:textColor="@color/grey"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.357"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.484" />
+
+        <EditText
+            android:id="@+id/et_confirm"
+            style="@style/EditTextRounded"
+            android:layout_width="380dp"
+            android:layout_height="39dp"
+            android:ems="10"
+            android:inputType="text"
+            android:text="ConfirmPasword"
+            android:textColor="@color/grey"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.333"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.559" />
+
+        <TextView
+            android:id="@+id/tvtexto1"
+            android:layout_width="330dp"
+            android:layout_height="77dp"
+            android:text="@string/datos"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.484"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.193" />
+
+        <TextView
+            android:id="@+id/tvnombre_app2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/abeezee"
+            android:text="@string/nombreapp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="48sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.687"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.051" />
+
+        <ImageView
+            android:id="@+id/Img_log"
+            android:layout_width="84dp"
+            android:layout_height="96dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.269"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.023"
+            app:srcCompat="@drawable/logos" />
+
+        <EditText
+            android:id="@+id/btn_lastname"
+            style="@style/EditTextRounded"
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:inputType="text"
+            android:text="LastName"
+            android:textColor="@color/grey"
+            android:textSize="16sp"
+            tools:layout_editor_absoluteX="241dp"
+            tools:layout_editor_absoluteY="212dp" />
+
+        <EditText
+            android:id="@+id/et_phone"
+            style="@style/EditTextRounded"
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:inputType="text"
+            android:text="Phone"
+            android:textColor="@color/grey"
+            android:textSize="16sp"
+            tools:layout_editor_absoluteX="241dp"
+            tools:layout_editor_absoluteY="283dp" />
+
+        <EditText
+            android:id="@+id/et_name"
+            style="@style/EditTextRounded"
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:inputType="text"
+            android:text="Name"
+            android:textColor="@color/grey"
+            android:textSize="16sp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="212dp" />
+
+        <CheckBox
+            android:id="@+id/cb_terms"
+            android:layout_width="321dp"
+            android:layout_height="57dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/Cbx_acep"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            tools:layout_editor_absoluteX="46dp"
+            tools:layout_editor_absoluteY="460dp" />
+
+        <TextView
+            android:id="@+id/tvnombre_app2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/abeezee"
+            android:text="@string/nombreapp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="48sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="227dp"
+            tools:layout_editor_absoluteY="36dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/Img_log"
+        android:layout_width="84dp"
+        android:layout_height="96dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.278"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.025"
+        app:srcCompat="@drawable/logos" />
+</androidx.constraintlayout.widget.ConstraintLayout>

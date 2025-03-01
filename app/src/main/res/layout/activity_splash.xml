@@ -7,7 +7,7 @@
     android:background="@color/purple">
 
     <ImageView
-        android:id="@+id/ivlogo"
+        android:id="@+id/Img_log"
         android:layout_width="266dp"
         android:layout_height="479dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -19,7 +19,7 @@
         app:srcCompat="@drawable/logos" />
 
     <TextView
-        android:id="@+id/tvnombreapp"
+        android:id="@+id/tvnombre_app3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/abeezee"

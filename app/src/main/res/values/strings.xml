@@ -9,4 +9,11 @@
     <string name="aventura">La aventura esta por iniciar, por favor inicia sesion</string>
     <string name="ingresa_google">Ingresa con Google</string>
     <string name="no_cuenta">No tienes cuenta?</string>
+    <string name="datos">Por favor Complete los datos del formulario para registrar su usuario</string>
+    <string name="btn_terminos">Terminar registro</string>
+    <string name="Cbx_acep">Aceppt terms and conditions</string>
+    <string name="btn_menu">Regresar al menu</string>
+    <string name="recuperar">Para recuperar su contraseña por favor ingrese el correo con el que inicia sesión</string>
+    <string name="btn_con">Recuperar tu contraseña</string>
+    <string name="btn_editar">Editar</string>
 </resources>
